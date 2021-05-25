@@ -67,7 +67,7 @@ const Search = () =>{
                     value={username} onChange={(e)=>setUsername(e.target.value)} disabled={disable} />
                     <i className="material-icons search-icon" onClick={(e)=>handleRepoSearch(e)}>search</i>
                 </form>
-                { data.length!==0 ? <i className="material-icons" onClick={()=>setData([])}>clear</i>:''}
+                { data.repos ? <i className="material-icons" onClick={()=>setData([])}>clear</i>:''}
             </div>
             {
                 !data.repos ?
