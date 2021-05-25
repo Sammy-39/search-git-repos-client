@@ -1,0 +1,72 @@
+.repo-commits-list{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.repo{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.repo-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.repo-header > a{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.repo-header > a:hover{
+    text-decoration: underline;
+}
+
+.repo-header > p{
+    font-size: 13px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    padding: 1px 5px 3px 5px;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+}
+
+.repo > p{
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.repo-footer{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.repo-footer > p{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.repo-footer > p > i{
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+@media only screen and (max-width:700px) {
+    .repo-list{
+        width: 90%;
+    }
+}

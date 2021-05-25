@@ -1,0 +1,56 @@
+.commits{
+    position: relative;
+}
+
+.commits > i{
+    position: fixed;
+    top: 44%;
+    left: 7%;
+    cursor: pointer;
+}
+
+.commits > i:hover{
+    font-size: 27px;
+}
+
+.commits > p:nth-of-type(1){
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.commit{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.commit-author-profile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.commit-author-profile > a > img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.commit > p > a{
+    word-wrap: break-word;
+}
+
+.commit > p{
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.commit-paginate{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

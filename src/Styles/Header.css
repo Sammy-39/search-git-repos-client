@@ -1,0 +1,22 @@
+.nav{
+    background-color: rgb(42, 39, 85);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-title{
+    font-size: 23px !important;
+}
+
+@media only screen and (max-width:400px) {
+    .nav{
+        padding: 0px 10px;
+    }
+}
