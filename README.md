@@ -2,6 +2,10 @@
 
 Simple application to search and list github repos and thier commits with github username using react and materialize css.
 
+Client URL - https://search-git-repos.netlify.app/
+
+Server URL - https://search-git-repos-server.herokuapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
