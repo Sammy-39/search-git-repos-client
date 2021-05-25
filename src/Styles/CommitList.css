@@ -54,3 +54,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width:755px) {
+    .commit > i{
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width:455px) {
+    .commit > i{
+        left: 3%;
+    }
+}
+
+@media only screen and (max-width:455px) {
+    .commit > i{
+        left: 2%;
+    }
+}
